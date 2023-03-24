@@ -1,7 +1,7 @@
 {
   "routes": [
     { "src": "/js/(.*)", "dest": "/js/$1" },
-    { "src": "/templates/(.*)", "dest": "/hardware.html" }
+    { "src": "/(.*)", "dest": "/hardware.html" }
   ],
   "builds": [
     {
